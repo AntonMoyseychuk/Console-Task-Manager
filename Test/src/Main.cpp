@@ -6,17 +6,6 @@ int main()
 {
 	task_manager::TaskManager manager = task_manager::TaskManager::Get();
 	std::string command;
-
-	//try {
-	//	std::cout << ":> ";
-	//	std::getline(std::cin, command);
-	//	for (const auto& str : string_utility::StringParser::Split(command, ' ')) {
-	//		std::cout << string_utility::StringParser::ToLowerCase(str) << '\n';
-	//	}
-	//}
-	//catch (const std::exception& ex) {
-	//	std::cout << ex.what() << '\n';
-	//}
 	
 	try {
 		while (true) {
